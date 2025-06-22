@@ -3,7 +3,10 @@ body{
 }
 
 header{
-    background-color: blue;
+    background-image: url(astugate.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
     width: 100%;
     height: auto;
     text-align: center;
@@ -53,6 +56,10 @@ nav a:hover{
 }
 
 .main{
+    background-image: url(astu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: auto;
     flex-shrink: initial;
